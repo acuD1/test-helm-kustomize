@@ -2,4 +2,4 @@ apiVersion: v2
 name: test-helm-kustomize
 description: Helm plus Kustomize
 type: application
-version: 0.1.0
+version: 0.1.1
