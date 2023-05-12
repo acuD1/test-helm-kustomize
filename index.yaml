@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   test-helm-kustomize:
   - apiVersion: v2
-    created: "2023-05-12T12:00:57.856329494Z"
+    created: "2023-05-12T12:22:36.97780897Z"
+    description: Helm plus Kustomize
+    digest: 00ea2fbcd5741e0d86c041102cf5f1b9dc2de25abc2f8e1f6e86d4043d522a1a
+    name: test-helm-kustomize
+    type: application
+    urls:
+    - test-helm-kustomize-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2023-05-12T12:22:36.975560556Z"
     description: Helm plus Kustomize
     digest: 3a518977b2d779985e2783620fdc6793bf96de3a400cfcefa66158047f01b1e5
     name: test-helm-kustomize
@@ -10,4 +19,4 @@ entries:
     urls:
     - test-helm-kustomize-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-12T12:00:57.85519409Z"
+generated: "2023-05-12T12:22:36.974037046Z"
