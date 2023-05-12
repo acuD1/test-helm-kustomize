@@ -4,9 +4,9 @@ kind: Kustomization
 helmCharts:
   - name: test-helm-kustomize
     releaseName: test-helm-kustomize
+    repo: https://acud1.github.io/test-helm-kustomize
     version: 0.1.0
-    valuesFile: ../../values.yaml
 
 images:
   - name: ghcr.io/trstringer/httpbin2
-    newTag: latest
+    newTag: "1"
